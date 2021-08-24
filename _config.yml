@@ -5,9 +5,9 @@ baseurl:
 #url: https://mazhuang.org
 url: https://mengxiangjin.github.io/
 date_format: "ordinal"
-title: 码志
-subtitle: "公众号：闷骚的程序员"
-description: "马壮的个人博客，公众号：闷骚的程序员"
+title: Jin
+#subtitle: "公众号：闷骚的程序员"
+description: "异想天开，其乐无穷"
 keywords: 码志, Zhuang Ma, mzlogin, mazhuang, 闷骚的程序员
 timezone: Asia/Shanghai
 encoding: "utf-8"
@@ -49,12 +49,12 @@ highlight_theme: github
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: Zhuang Ma
+author: Jin
 organization: 
 organization_url: 
-github_username: mzlogin
-location: Wuhan, China
-email: chumpma@gmail.com
+github_username: Jin
+location: HeFei, China
+email: zyzlzy@foxmail.com
 
 # ---------------- #
 #    Navigation    #
