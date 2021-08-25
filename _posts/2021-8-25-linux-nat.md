@@ -10,7 +10,7 @@ keywords: 虚拟机, NAT, 桥接
 
 ## 知识点
 
-在Vmware上安装Linux镜像文件的时候，选项网络模式的选择，如下所示：![](D:\Program Files\jin\mengxiangjin.github.io\images\jin\linux\nat.png)
+在Vmware上安装Linux镜像文件的时候，选项网络模式的选择，如下所示：![](/images/jin/linux/nat.png)
 
 我们最常配置的便是NAT模式，其余还有桥接，Only-Host。
 
