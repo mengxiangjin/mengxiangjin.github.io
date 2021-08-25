@@ -2,26 +2,33 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: http://mazhuang.org
+url: https://mazhuang.org
 date_format: "ordinal"
-title: 九九叔
-subtitle: 九九叔的github之家
-description: 九九叔的github之家
-keywords: 九九叔, JiuJiuShu, jjslogin, JiuJiuShu
-favicon: /favicon.ico
-timezone: Asia/Shenzhen
+title: Jin
+subtitle: "哎哟哟歪"
+description: "随遇而安"
+keywords: Jin,随遇而安,哎哟哟歪
+timezone: Asia/Shanghai
 encoding: "utf-8"
-side_bar_repo_limit: 5
+repository: mengxiangjin/mengxiangjin.github.io
+
+
+# 压缩页面内容
+compress_html:
+  clippings: all
+  comments: ["<!--", "-->"]
+# 代码高亮风格，支持的 theme 列表见 https://github.com/mzlogin/rouge-themes
+highlight_theme: github
 
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: JiuJiuShu
-organization: OPPO, Inc.
-organization_url: http://www.oppo.com
-github_username: wenfengtou
-location: Shenzhen, China
-email: qianmayi@gmail.com
+author: Jin
+organization: 
+organization_url: 
+github_username: mengxiangjin
+location: HeFei, China
+email: zyzlzy@foxmail.com
 
 # ---------------- #
 #    Navigation    #
@@ -59,7 +66,7 @@ markdown: kramdown
 kramdown:
     input: GFM
 highlighter: rouge
-paginate: 8
+paginate: 10
 lsi: false
 quiet: false
 excerpt_separator: "\n\n"
@@ -78,22 +85,37 @@ collections:
         output: true
         permalink: /wiki/:path/
 
-repository: wenfengtou/mzlogin.github.io
-
 # ---------------- #
 #      Comments    #
 # ---------------- #
-# support provider: disqus, netease_gentie
+# support provider: disqus, gitment, gitalk
 comments_provider: netease_gentie
 # !!!重要!!! 请修改下面这些信息为你自己申请的
 # !!!Important!!! Please modify infos below to yours
-disqus_username: mzlogin
+# https://disqus.com
+disqus:
+    username: mzlogin
+
 netease_gentie_key: 560ed243b708465d82d5a0a5f3b83da1
 # 在使用网易云跟帖时可点击显示 Disqus
 lazy_load_disqus : true
 
 # ---------------- #
-#    Analytics     #
+#      Search      #
+# ---------------- #
+simple_jekyll_search:
+    # 是否支持全文搜索
+    fulltext: false
+    # 最多显示多少条搜索结果
+    limit: 10
+
+# ---------------- #
+#      Google      #
 # ---------------- #
 google:
     analytics_id: UA-80669434-1
+    adsense:
+        footer: true
+        sidebar: true 
+        content_header: true
+        content_footer: false
